@@ -1,2 +1,21 @@
-# Login_System
-A React + NodeJS + MySQL app with a login system that utilises cookies. Used as a template to start web projects on.
+## How to Install
+```
+git clone https://github.com/tompilsbury/Login-System.git
+cd Login-System/server
+npm install
+cd ../client
+npm install
+```
+
+## How to Run
+```
+cd server
+npm start
+cd ../client
+npm start
+```
+
+## About
+Login website with ReactJS + NodeJS + MySQL.
+MySQL models and queries handled with Sequelize module in node. Rest API made with ExpressJS and Cors.
+Frontend handled by React + CSS

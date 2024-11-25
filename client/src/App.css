@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #252525;
+
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar .homeLink {
+  padding-left: 20px;
+}
+
+.navbar .rightSide {
+  float: right;
+  padding-right: 20px;
+}
+
+/* HOME PAGE */
+.homeContainer {
+  padding-top: 150px;
+}
+
+.homeContainer img {
+  padding-top: 100px;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.homeContainer h2 {
+  display: inline-block;
+  font-size: 22px;
+  height: 18px;
+}
+
+
+/* DASHBOARD */
+.dashContainer{
+  padding-top: 100px;
+}
+
+.dashContainer button{
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+
+.dashContainer button:hover {
+  background-color: grey;
+  cursor: pointer; 
+}
+
+/* LOGIN PAGE */
+.loginContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.loginContainer input,
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+
+.loginContainer button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+/* REGISTER PAGE */
+.registerForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.registerError {
+  color: red;
+}
+
+.registerForm input,
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+
+.registerForm button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
