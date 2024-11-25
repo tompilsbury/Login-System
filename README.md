@@ -1,7 +1,7 @@
 ## How to Install
 ```
-git clone https://github.com/tompilsbury/Login-System.git
-cd Login-System/server
+git clone https://github.com/tompilsbury/Login_System.git
+cd Login_System/server
 npm install
 cd ../client
 npm install
